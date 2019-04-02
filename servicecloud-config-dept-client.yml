@@ -41,9 +41,11 @@ info:
   app.name: xiaohe-microservicecloud
   company.name: www.xiaohe.com
   build.artifactId: $project.artifactId$
-  build.version: $project.version$    
- ---
- server:
+  build.version: $project.version$
+      
+---
+
+server:
   port: 8001
 spring:
    profiles: test
